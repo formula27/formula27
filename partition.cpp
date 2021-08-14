@@ -3,6 +3,7 @@
 //要求能在5分钟内写出来
 int partition(int a[], int start, int end)
 {
+  //取第一个元素作为标准值
   int index = start;
   
   //第一次交换
@@ -32,3 +33,4 @@ int partition(int a[], int start, int end)
   
   return index;
 }
+
